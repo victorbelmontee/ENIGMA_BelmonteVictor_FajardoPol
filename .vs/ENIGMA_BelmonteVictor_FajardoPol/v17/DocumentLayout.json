@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|solutionrelative:ENIGMA_BelmonteVictor_FajardoPol\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\const.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|solutionrelative:ENIGMA_BelmonteVictor_FajardoPol\\const.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\enigma.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|solutionrelative:ENIGMA_BelmonteVictor_FajardoPol\\enigma.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|solutionrelative:ENIGMA_BelmonteVictor_FajardoPol\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\rotor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|solutionrelative:ENIGMA_BelmonteVictor_FajardoPol\\rotor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\enigma.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|solutionrelative:ENIGMA_BelmonteVictor_FajardoPol\\enigma.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|solutionrelative:ENIGMA_BelmonteVictor_FajardoPol\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\rotor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7F607462-794E-4D92-A467-5F56F908E263}|ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol.vcxproj|solutionrelative:ENIGMA_BelmonteVictor_FajardoPol\\rotor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "rotor.cpp",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\rotor.cpp",
+              "RelativeDocumentMoniker": "ENIGMA_BelmonteVictor_FajardoPol\\rotor.cpp",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\rotor.cpp",
+              "RelativeToolTip": "ENIGMA_BelmonteVictor_FajardoPol\\rotor.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-29T14:18:51.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "enigma.cpp",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\enigma.cpp",
+              "RelativeDocumentMoniker": "ENIGMA_BelmonteVictor_FajardoPol\\enigma.cpp",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\enigma.cpp",
+              "RelativeToolTip": "ENIGMA_BelmonteVictor_FajardoPol\\enigma.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-29T14:18:42.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "menu.cpp",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\menu.cpp",
+              "RelativeDocumentMoniker": "ENIGMA_BelmonteVictor_FajardoPol\\menu.cpp",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\menu.cpp",
+              "RelativeToolTip": "ENIGMA_BelmonteVictor_FajardoPol\\menu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-29T14:18:31.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\main.cpp",
+              "RelativeDocumentMoniker": "ENIGMA_BelmonteVictor_FajardoPol\\main.cpp",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\main.cpp",
+              "RelativeToolTip": "ENIGMA_BelmonteVictor_FajardoPol\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-29T14:18:19.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "menu.h",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\menu.h",
+              "RelativeDocumentMoniker": "ENIGMA_BelmonteVictor_FajardoPol\\menu.h",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\menu.h",
+              "RelativeToolTip": "ENIGMA_BelmonteVictor_FajardoPol\\menu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-29T14:18:07.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "enigma.h",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\enigma.h",
+              "RelativeDocumentMoniker": "ENIGMA_BelmonteVictor_FajardoPol\\enigma.h",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\enigma.h",
+              "RelativeToolTip": "ENIGMA_BelmonteVictor_FajardoPol\\enigma.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-29T14:17:59.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "rotor.h",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\rotor.h",
+              "RelativeDocumentMoniker": "ENIGMA_BelmonteVictor_FajardoPol\\rotor.h",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\rotor.h",
+              "RelativeToolTip": "ENIGMA_BelmonteVictor_FajardoPol\\rotor.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-29T14:17:49.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "const.h",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\const.h",
+              "RelativeDocumentMoniker": "ENIGMA_BelmonteVictor_FajardoPol\\const.h",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\ENIGMA_BelmonteVictor_FajardoPol\\ENIGMA_BelmonteVictor_FajardoPol\\const.h",
+              "RelativeToolTip": "ENIGMA_BelmonteVictor_FajardoPol\\const.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-29T14:17:28.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
