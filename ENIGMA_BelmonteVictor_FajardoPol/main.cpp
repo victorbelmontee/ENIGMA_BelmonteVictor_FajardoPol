@@ -1,4 +1,8 @@
-int main() {
+#include <iostream>
+#include "menu.h"
 
-	return 0;
-};
+int main() {
+    std::cout << "=== Simulador Maquina ENIGMA ===\n";
+    runMenu();
+    return 0;
+}
