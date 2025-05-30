@@ -1,4 +1,8 @@
-int main() {
+#include "menu.h"
 
-	return 0;
-};
+// Función principal del programa
+// Inicia la aplicación mostrando el menú de opciones
+int main() {
+    mostrarMenu();
+    return 0;
+}
