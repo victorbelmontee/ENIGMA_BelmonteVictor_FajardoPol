@@ -1,4 +1,6 @@
-﻿  main.cpp
+﻿  enigma.cpp
+  main.cpp
   menu.cpp
+  rotor.cpp
   Generating Code...
   ENIGMA_BelmonteVictor_FajardoPol.vcxproj -> C:\Users\Victor\Documents\GitHub\ENIGMA_BelmonteVictor_FajardoPol\x64\Debug\ENIGMA_BelmonteVictor_FajardoPol.exe

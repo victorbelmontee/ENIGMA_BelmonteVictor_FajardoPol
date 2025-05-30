@@ -1,8 +1,7 @@
-#include <iostream>
 #include "menu.h"
 
+// Función principal
 int main() {
-    std::cout << "=== Simulador Maquina ENIGMA ===\n";
-    runMenu();
+    mostrarMenu();
     return 0;
 }

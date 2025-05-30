@@ -1,5 +1,4 @@
 #pragma once
 
-// Muestra el menú interactivo y gestiona opciones hasta salir.
-void runMenu();
-
+// Muestra el menú y gestiona las opciones
+void mostrarMenu();

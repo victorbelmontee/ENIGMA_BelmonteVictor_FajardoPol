@@ -1,12 +1,9 @@
 #pragma once
 
-#include "const.h"
-#include <string>
+#include <string>     // Para std::string
 
-// Carga y valida la permutación del rotor 'id' desde su fichero.
-// Devuelve false y rellena errMsg en caso de error.
-bool loadRotor(int id, std::string& wiring, char& notch, std::string& errMsg);
+// Cargar un rotor desde un archivo
+bool cargarRotor(const std::string& nombreArchivo, std::string& wiring, char& notch, std::string& mensajeError);
 
-// Avanza la posición del rotor (y notch si aplica).
-void advanceRotor(std::string& wiring, char& notch);
-
+// Validar que el wiring tenga 26 letras únicas entre A y Z
+bool validarPermutacion(const std::string& wiring);

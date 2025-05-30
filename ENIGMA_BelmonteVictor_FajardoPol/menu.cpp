@@ -1,37 +1,54 @@
 #include "menu.h"
-#include "enigma.h"
 #include "rotor.h"
-#include <iostream>
-#include <string>
+#include <iostream>   // Para std::cout, std::cin
+#include <string>     // Para std::string
 
-void runMenu() {
-    int option = 0;
-    std::string err;
+// Mostrar menú principal
+void mostrarMenu() {
+    int opcion = 0;
+
+    // Strings de los 3 rotors y sus notch
+    std::string rotor1, rotor2, rotor3;
+    char notch1 = 'Z';
+    char notch2 = 'Z';
+    char notch3 = 'Z';
+    std::string mensaje;
+
     do {
-        std::cout << "\n1. Cifrar mensaje\n"
-            << "2. Descifrar mensaje\n"
-            << "3. Editar rotor\n"
-            << "4. Salir\n"
-            << "Elige una opcion: ";
-        std::cin >> option;
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\\n');
-        switch (option) {
-        case 1:
-            if (!encryptMessage(INPUT_MESSAGE_FILE, err))
-                std::cout << "ERROR" << err << "\n";
-            break;
-        case 2:
-            if (!decryptMessage(err))
-                std::cout << "ERROR" << err << "\n";
-            break;
-        case 3:
+        std::cout << "\nENIGMA:\n";
+        std::cout << "-------------------------------\n";
+        std::cout << "1. Xifrar missatge\n";
+        std::cout << "2. Desxifrar missatge\n";
+        std::cout << "3. Editar rotors\n";
+        std::cout << "4. Sortir\n";
+        std::cout << "Opció: ";
+        std::cin >> opcion;
 
-            break;
-        case 4:
-            std::cout << "¡Hasta luego!\n";
-            break;
-        default:
-            std::cout << "Opción no válida.\n";
+        if (opcion == 1 || opcion == 2) {
+            std::cout << "\n[INFO] Carregant rotors...\n";
+
+            bool ok1 = cargarRotor("Rotor1.txt", rotor1, notch1, mensaje);
+            if (!ok1) {
+                std::cout << mensaje << "\n";
+                continue;
+            }
+
+            bool ok2 = cargarRotor("Rotor2.txt", rotor2, notch2, mensaje);
+            if (!ok2) {
+                std::cout << mensaje << "\n";
+                continue;
+            }
+
+            bool ok3 = cargarRotor("Rotor3.txt", rotor3, notch3, mensaje);
+            if (!ok3) {
+                std::cout << mensaje << "\n";
+                continue;
+            }
+
+            std::cout << "[OK] Rotors carregats correctament.\n";
         }
-    } while (option != 4);
+
+    } while (opcion != 4);
+
+    std::cout << "Sortint del programa...\n";
 }
