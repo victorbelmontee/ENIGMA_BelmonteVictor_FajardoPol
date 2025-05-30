@@ -46,10 +46,17 @@ void mostrarMenu() {
 
             std::cout << "[OK] Rotors carregats correctament.\n";
 
-            // Ejecutar cifrado si opción 1
             if (opcion == 1) {
                 std::string error;
                 bool correcto = encryptMessage("Missatge.txt", error);
+                if (!correcto) {
+                    std::cout << error << "\n";
+                }
+            }
+
+            if (opcion == 2) {
+                std::string error;
+                bool correcto = decryptMessage(error);
                 if (!correcto) {
                     std::cout << error << "\n";
                 }
