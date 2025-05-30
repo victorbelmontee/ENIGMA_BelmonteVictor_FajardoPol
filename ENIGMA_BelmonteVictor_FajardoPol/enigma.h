@@ -3,13 +3,11 @@
 #include "const.h"
 #include <string>
 
-// Convierte input: pasa a mayúsculas, filtra solo A–Z.
+// Convierte input y pasa a mayúscula
 std::string normalizeText(const std::string& input);
 
-// Cifra el contenido de inputPath y escribe en OUTPUT_ENCRYPT_FILE.
-// Devuelve false y rellena errMsg en caso de fallo.
+// // Cifra el contenido de inputPath i escribe a Xifrat.txt, devuelve false i llena errMsg si hay error.
 bool encryptMessage(const std::string& inputPath, std::string& errMsg);
 
-// Descifra desde OUTPUT_ENCRYPT_FILE y escribe en OUTPUT_DECRYPT_FILE.
-// Devuelve false y rellena errMsg en caso de fallo.
+// Descifra el contenido de Xifrat.txt i escribe a Desxifrat.txt y devuelve false i llena errMsg si hi ha error.
 bool decryptMessage(std::string& errMsg);

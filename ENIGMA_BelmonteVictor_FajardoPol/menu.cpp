@@ -20,7 +20,7 @@ void mostrarMenu() {
         std::cout << "2. Desxifrar missatge\n";
         std::cout << "3. Editar rotors\n";
         std::cout << "4. Sortir\n";
-        std::cout << "Opció: ";
+        std::cout << "Opcio: ";
         std::cin >> opcion;
 
         if (opcion == 1 || opcion == 2) {
@@ -61,6 +61,66 @@ void mostrarMenu() {
                     std::cout << error << "\n";
                 }
             }
+        }
+
+        if (opcion == 3) {
+            int numero;
+            std::cout << "Quin rotor vols editar? (1–3): ";
+            std::cin >> numero;
+
+            if (numero < 1 || numero > 3) {
+                std::cout << "[ERROR] Numero de rotor no valid.\n";
+                continue;
+            }
+
+            std::string wiring;
+            std::cout << "Introdueix la nova permutacio (26 lletres A–Z sense repetir): ";
+            std::cin >> wiring;
+
+            if (wiring.length() != 26) {
+                std::cout << "[ERROR] Permutacio invalida — ha de tenir exactament 26 lletres.\n";
+                continue;
+            }
+
+            int contador[26] = { 0 };
+            bool valid = true;
+
+            for (int i = 0; i < 26; i++) {
+                char c = wiring[i];
+                if (c < 'A' || c > 'Z') {
+                    valid = false;
+                    break;
+                }
+                contador[c - 'A']++;
+            }
+
+            for (int i = 0; i < 26; i++) {
+                if (contador[i] != 1) {
+                    valid = false;
+                    break;
+                }
+            }
+
+            if (!valid) {
+                std::cout << "[ERROR] Permutacio invalida — calen 26 lletres uniques A–Z.\n";
+                continue;
+            }
+
+            // Construir nom de fitxer sense std::to_string
+            std::string nomFitxer = "Rotor";
+            nomFitxer += char('0' + numero);
+            nomFitxer += ".txt";
+
+            std::ofstream out(nomFitxer);
+            if (!out.is_open()) {
+                std::cout << "[ERROR] No s'ha pogut escriure a " << nomFitxer << "\n";
+                continue;
+            }
+
+            out << wiring << "\n";
+            out.close();
+
+            std::cout << "[OK] Rotor actualitzat correctament.\n";
         }
 
     } while (opcion != 4);
