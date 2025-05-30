@@ -1,7 +1,6 @@
 #include "menu.h"
 #include "rotor.h"
-#include <iostream>   // Para std::cout, std::cin
-#include <string>     // Para std::string
+#include "enigma.h"
 
 // Mostrar menú principal
 void mostrarMenu() {
@@ -46,6 +45,15 @@ void mostrarMenu() {
             }
 
             std::cout << "[OK] Rotors carregats correctament.\n";
+
+            // Ejecutar cifrado si opción 1
+            if (opcion == 1) {
+                std::string error;
+                bool correcto = encryptMessage("Missatge.txt", error);
+                if (!correcto) {
+                    std::cout << error << "\n";
+                }
+            }
         }
 
     } while (opcion != 4);

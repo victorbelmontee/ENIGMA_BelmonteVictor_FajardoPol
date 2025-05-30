@@ -1,0 +1,2 @@
+Hola, món!
+Aquest és un missatge de prova per comprovar que la xifra i desxifra funcionen correctament.
