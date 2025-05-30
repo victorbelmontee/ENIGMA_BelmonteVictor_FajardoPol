@@ -4,10 +4,13 @@
 #include <string>
 
 // Convierte input y pasa a mayúscula
+// Elimina caracteres que no sean letras
 std::string normalizeText(const std::string& input);
 
-// // Cifra el contenido de inputPath i escribe a Xifrat.txt, devuelve false i llena errMsg si hay error.
+// Cifra el contenido de inputPath y escribe a Xifrat.txt
+// Devuelve false y llena errMsg si hay error.
 bool encryptMessage(const std::string& inputPath, std::string& errMsg);
 
-// Descifra el contenido de Xifrat.txt i escribe a Desxifrat.txt y devuelve false i llena errMsg si hi ha error.
+// Descifra el contenido de Xifrat.txt y escribe a Desxifrat.txt
+// Devuelve false y llena errMsg si hay error.
 bool decryptMessage(std::string& errMsg);

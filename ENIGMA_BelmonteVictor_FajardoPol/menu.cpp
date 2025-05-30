@@ -3,17 +3,20 @@
 #include "enigma.h"
 
 // Mostrar menú principal
+// Gestiona las diferentes opciones del programa Enigma
 void mostrarMenu() {
     int opcion = 0;
 
-    // Strings de los 3 rotors y sus notch
+    // Variables para almacenar la configuración de los rotors
     std::string rotor1, rotor2, rotor3;
     char notch1 = 'Z';
     char notch2 = 'Z';
     char notch3 = 'Z';
     std::string mensaje;
 
+    // Bucle principal del menú
     do {
+        // Mostrar las opciones disponibles
         std::cout << "\nENIGMA:\n";
         std::cout << "-------------------------------\n";
         std::cout << "1. Xifrar missatge\n";
@@ -23,9 +26,11 @@ void mostrarMenu() {
         std::cout << "Opcio: ";
         std::cin >> opcion;
 
+        // Opciones de cifrado o descifrado requieren cargar rotors primero
         if (opcion == 1 || opcion == 2) {
             std::cout << "\n[INFO] Carregant rotors...\n";
 
+            // Cargar los tres rotors desde archivos
             bool ok1 = cargarRotor("Rotor1.txt", rotor1, notch1, mensaje);
             if (!ok1) {
                 std::cout << mensaje << "\n";
@@ -46,6 +51,7 @@ void mostrarMenu() {
 
             std::cout << "[OK] Rotors carregats correctament.\n";
 
+            // Opción 1: Cifrar mensaje desde archivo
             if (opcion == 1) {
                 std::string error;
                 bool correcto = encryptMessage("Missatge.txt", error);
@@ -54,6 +60,7 @@ void mostrarMenu() {
                 }
             }
 
+            // Opción 2: Descifrar mensaje desde archivo
             if (opcion == 2) {
                 std::string error;
                 bool correcto = decryptMessage(error);
@@ -63,7 +70,9 @@ void mostrarMenu() {
             }
         }
 
+        // Opción 3: Modificar configuración de rotors
         if (opcion == 3) {
+            // Preguntar qué rotor editar (1-3)
             int numero;
             std::cout << "Quin rotor vols editar? (1–3): ";
             std::cin >> numero;
@@ -73,18 +82,22 @@ void mostrarMenu() {
                 continue;
             }
 
+            // Pedir nueva permutación para el rotor
             std::string wiring;
-            std::cout << "Introdueix la nova permutacio (26 lletres A–Z sense repetir): ";
+            std::cout << "Introdueix la nova permutacio (26 lletres A-Z sense repetir): ";
             std::cin >> wiring;
 
+            // Validar longitud
             if (wiring.length() != 26) {
                 std::cout << "[ERROR] Permutacio invalida — ha de tenir exactament 26 lletres.\n";
                 continue;
             }
 
+            // Validar caracteres y unicidad
             int contador[26] = { 0 };
             bool valid = true;
 
+            // Comprobar que son letras mayúsculas
             for (int i = 0; i < 26; i++) {
                 char c = wiring[i];
                 if (c < 'A' || c > 'Z') {
@@ -94,6 +107,7 @@ void mostrarMenu() {
                 contador[c - 'A']++;
             }
 
+            // Comprobar que no hay repeticiones
             for (int i = 0; i < 26; i++) {
                 if (contador[i] != 1) {
                     valid = false;
@@ -106,7 +120,7 @@ void mostrarMenu() {
                 continue;
             }
 
-            // Construir nom de fitxer sense std::to_string
+            // Guardar el nuevo rotor en archivo
             std::string nomFitxer = "Rotor";
             nomFitxer += char('0' + numero);
             nomFitxer += ".txt";
